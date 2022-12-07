@@ -22,7 +22,7 @@ Para ligar o arduino é necessario conectar uma ponta do cabo usb em algum dispo
 Para que o sensor capte os batimentos cardiaco é necessário que o usuário repouse a ponta do dedo sobre o sensor, os sensor irá apresentar a taxa de batimento por minuto no display e enviar para o topico criado no MQTT.
 
 
-Para que o ESP8266 funcione na ide do arduino deverá acessar a ide e seguir o seguinte passo:
+*Para que o ESP8266 funcione na ide do arduino deverá acessar a ide e seguir o seguinte passo:*
 
 
 1° Selecionar a aba 'File';
@@ -33,44 +33,44 @@ Para que o ESP8266 funcione na ide do arduino deverá acessar a ide e seguir o s
 Adicionar as seguintes bibliotecas:
 
 #### Bibliotecas
-- EspMQTTClient: conectar com wifi e MQTT
-- LiquidCrystal_I2C: controlar o display
-- PulseSensorPlayground: obter dados do sensor
+- EspMQTTClient - conecta com wifi e MQTT
+- LiquidCrystal_I2C - controla o display
+- PulseSensorPlayground - obtem dados do sensor
 
 #### Uploading
 
-Para adicionar o programa no ESP8266 deverá seguir os passo abaixo:
+**Para adicionar o programa no ESP8266 deverá seguir os passo abaixo:**
 
 
-- 1° ligar os switches 5, 6 e 7 ;
-- 2° Conectar o cabo usb no arduino e em um computador;
-- 3° Selecionar a aba da ide 'Tools';
-- 4° Selecionar a porta que conectado o cabo usb;
-- 5° Selecionar a placa 'Generic ESP8266 module';
-- 6° Fazer o uploanding do programa;
+1. ligar os switches 5, 6 e 7 ;
+2. Conectar o cabo usb no arduino e em um computador;
+3. Selecionar a aba da ide 'Tools';
+4. Selecionar a porta que conectado o cabo usb;
+5. Selecionar a placa 'Generic ESP8266 module';
+6. Fazer o uploanding do programa;
 
 
-Para adicionar o programa no ATmega deverá seguir os passo abaixo:
+**Para adicionar o programa no ATmega deverá seguir os passo abaixo:**
 
 
-- 1° desconectar o usb;
-- 2° desligar os switches 5, 6 e 7;
-- 3° ligar os switches 3 e 4 do arduino;
-- 4° Conectar o cabo usb no arduino e em um computador;
-- 5° Selecionar a aba da ide 'Tools';
-- 6° Selecionar a porta que conectado o cabo usb;
-- 7° Selecionar a placa 'Arduino Uno';
-- 8° Fazer o uploanding do programa;
+1. desconectar o usb;
+2. desligar os switches 5, 6 e 7;
+3. ligar os switches 3 e 4 do arduino;
+4. Conectar o cabo usb no arduino e em um computador;
+5. Selecionar a aba da ide 'Tools';
+6. Selecionar a porta que conectado o cabo usb;
+7. Selecionar a placa 'Arduino Uno';
+8. Fazer o uploanding do programa;
 
 
-Para que o ATmega se comunique com o ESP8266 deverá seguir os passos abaixo:
+**Para que o ATmega se comunique com o ESP8266 deverá seguir os passos abaixo:**
 
 
-- 1° desconectar o usb;
-- 2° desligar os switches 3 e 4;
-- 3° ligar os switches 1 e 2 do arduino;
-- 4° Conectar o cabo usb no arduino e em um computador;
-- 5° Selecionar a aba da ide 'Tools';
+1. desconectar o usb;
+2. desligar os switches 3 e 4;
+3. ligar os switches 1 e 2 do arduino;
+4. Conectar o cabo usb no arduino e em um computador;
+5. Selecionar a aba da ide 'Tools';
 
 
 
